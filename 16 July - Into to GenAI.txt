@@ -1,0 +1,63 @@
+GenAI 
+
+
+(16-07-26)
+
+Introduction to GenAI
+
+How does GenAI works ?
+ GAN ( Generative Adverserial Neural Network)
+
+  Generator -- generate the image randomly from internet or given datatset till image is real
+  Discriminator -- classify image is real or fake which is generate by generator
+
+VAE (Variational Auto Encoder)
+ encoder -- input text by the user
+ decoder -- model generate text response text response from the model
+ RNN architecture
+
+
+Generative AI has 2 model :
+Text based model
+  User enter text GPT generate text
+ this text based model is Scalled LLM (LARGE LANGUAGE MODEL)
+
+
+ 
+
+Multimodel == State of the art model == Congnitive AI
+  text-image | image -text
+  text-audio | audio - text
+except text based rest of them are multimodel
+
+Multimodel we don't call LLM
+
+
+How to Build GenAI Model ==>
+1. Data
+2. Computation Resources
+3. Model Architecture
+4. Training Algo
+
+
+
+
+
+INTRODUCTION TO LLM's
+
+1. LLM TOKENIZER
+2. LLM EMBEDDING
+3. TRANSFER LEARNING
+4. ATTENTION IN LLM
+5. PRE-TRAINING
+
+
+
+LLM TOKENIZER ==>
+it is divided in 3 parts
+
+1. BPE (Byte Pair Encoding)
+2. WORD PIECE
+3. SENTENCE PIECE
+
+
