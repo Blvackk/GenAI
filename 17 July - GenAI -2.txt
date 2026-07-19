@@ -1,0 +1,68 @@
+How GenAI works -- gans & Vae | gans - Generator & Discriminator | Generator: generator the image & discriminator classify real or fake 
+
+LLM Embedding ==>
+ text to vector -- bow , tfidf , word2vec
+
+text will convert to vector  -- vector will store in Knowledge Base
+knowledge  base -- vector db
+
+
+1. LLM TOKENIZER
+
+2. LLM EMBEDDING
+
+In the context of LLM, embeddings are vectors stored in an index within a vector database.
+Embeddingd are a way to store data of all types in number arrays called vectors.
+
+    sql db -- number are store in sql data (mysql , postgres)
+    no sql db -- data image , text , document ( mongodb, hbase,casandra)
+    vector db -- it won't store text, number, image (pinecone, milvus ,qdrant, chroma db )
+                text --> index vector
+                image --> vector
+                video --> vector
+
+OpenAI has its own vector DB
+Google has its own embedding
+Huggingspace has its own hugging face embedding
+
+
+3. TRANSFER LEARNING
+ Transformers -- gpt, bert, imagenet, gans, encoder -- decoder
+
+
+
+4. ATTENTION IN LLM
+
+The attention mechanism is one of the most important concepts in LLM , it allows the model to focus on the most relevant words (tokens) when processing or generating text , instead of treating every word equally.
+
+Attention = Important Sentence
+
+To handle attention mechanism every model has 3 vectors:-
+Query(Q) - What info am I looking for?
+Key(K) - What information do I contain?
+Value(V) - What information should I contribute ?
+
+
+Single words == Multiple Meanings (single self attention mechanism)
+Multiple word == Multiple meaning ( Multi head attention)
+
+
+
+5. PRE-TRAINING
+To build LLM Model we must know about Framework
+Langchain
+Langgraph
+Langsmith
+
+
+Langchain Core Components ==>
+agents , models, messages , short term memory , event streaming , structure output
+
+
+PROJECTS FOR RESUEME ==>
+bank risk analysis
+image analysis for computer vision
+EDA with datat analysis
+Rag project
+Multi agent
+LLM bot for banking
