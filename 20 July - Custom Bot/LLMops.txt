@@ -1,0 +1,11 @@
+
+LLMOPS
+
+(LANGSMITH) -- for monitor the LLM model behaviour
+ track -- how many token you spend
+ which LLM you are using
+
+Mlflow is one of the tracking system (Monitor Accuracy)
+LLMops also do the same thing
+langsmith.com --> generate langsmith API Key 
+langsmith provide free tracing upto 5000 traces
