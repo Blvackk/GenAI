@@ -1,0 +1,35 @@
+(21-07-26)
+
+Whenever user write any prompt in any LLM , do you know what parameters implemented ?
+Whenever we built any algorithm (has inbuild parameter)
+Same in COMPUTER VISION too
+
+
+ML Model Parameter V/S LLM Model Parameter
+
+
+LLM Model Parameter =>
+
+1. model
+
+2. temperature
+
+3. top-p :- is a parameter that controls how the model selects the next word during text generation.
+Range 0-1
+
+4. top-k :- works same as top-p but don't have any range, will find in next word generation rather it immediately given next tokens, possibility words.
+
+low top-k (1 to 10) generate next 10 possibility
+default top-k (40 or 50)
+N-high top-k (100+)
+
+5. max length : Parameter control over output
+  eg: if max-length=50 ==> generate up to 50 tokens
+
+6. stop sequence : Signal stating to stop generating text.
+
+7. frequency penalty :Stop generate reptation of words
+Range : 0-2
+
+8. presence penalty : Stop generate repetition of ideas
+Range: 0-2
