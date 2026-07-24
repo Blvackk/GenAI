@@ -1,0 +1,17 @@
+(24-07-26)
+
+
+AGENTIC AI
+
+1.Agent also has memory
+2.Agent has planning
+3.Agent can receive the task
+4.Agent can connect tools
+5.Agent  can also connect to LLm's
+
+Trigger Nodes --> Form will Open
+Action Nodes --> What should happen next
+Logic Nodes --> What logic need to apply to complete the  task
+
+
+Introduction about n8n
