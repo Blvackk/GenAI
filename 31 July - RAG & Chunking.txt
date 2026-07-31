@@ -1,0 +1,38 @@
+(31-07-26)
+
+
+===
+RAG  (Retrieval Augmented Generation)
+===
+Retrieval --> getting relevant document of the query from database
+
+Types of RAG:-
+1. Navies RAG
+2.Advance RAG
+3.Simpale RAG
+4.Hybrid RAG
+5.Agentic RAG
+6.GraphRAG
+7.Multi-model RAG
+8.MUlti-Hop RAG
+9.Corrective RAG
+10. Self RAG
+11.Adaptive RAG
+12.Forbeddien & Secure  Enterprise RAG
+
+
+Chunking
+Types :
+1. Fixed-size chunking
+2. Fixed-size with Overlap
+3.Sentence-based Chunking
+4.Pragraph-based Chunking
+5.Section-based Chunking
+6.Semantic Chunking
+7.Token-based Chunking
+8.Character based Chunking
+9.Documen Structure Chunking
+10.Sliding Window Chunking
+11. Hierarchical Chunking
+12. Metadata-aware Chunking
+ 
