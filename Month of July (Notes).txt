@@ -1,0 +1,917 @@
+Month of July
+
+
+(1-07-26)
+
+
+
+GitHub --> repo : public & private
+Bitbucket --> repo : no public only private , used in organization
+!wget --> when we have large dataset for image model
+
+Training 
+  Apple  - 162 image
+  Oranges -145 image
+  Banana - 153 image
+
+Testing
+ Apple - 47
+ Orange - 40
+ Banana - 43
+
+Validation 
+ Apple - 23
+ Banana - 22
+ Orange - 22
+
+
+Training image > Testing image > Validation Image
+
+.tflite file that  file we will sharing to android team
+
+
+IMP LINK:
+https://data-flair.training/blogs/
+
+
+
+(2-07-26)
+
+
+Project 1 -- Colour Recognition using OpenCV
+Project 2 -- OCR using pytesearact (pytorch library)
+Project 3 -- Object tracking from video
+
+
+Pixel Range 0 - 255
+
+0-50 --> light side of the colour
+200-255 --> dark side of the colour
+
+hsv colours
+hue (0-179)
+saturation (0-255)
+value(0-255)
+
+
+Done 3 projects
+
+
+
+
+(3-07-26)
+
+
+
+COMPUTER VISION 
+---------------
+
+
+YOLO [ you only look once ]
+
+Ultralytics (yolo model)
+Advanced Computer Vision
+
+
+Object detection
+Object segmentation
+Semantic segmentation
+Object bounding  boxes
+
+
+
+Project 1 : Object Detection using yolo in gpu
+            yolo8.pt , yolov11.pt , yolov26.pt
+
+
+Project 2 : Object Detection using in CPU
+
+
+
+(4-07-26)
+
+Project 1 : Custom detection using YOLO 
+
+https://github.com/kodigitaccount/Ultralytics_Yolo
+
+
+
+
+(6-07-26)
+
+====
+OOPS
+====
+
+class
+method
+object
+encapsulation
+inheritance
+polymorphism
+abstraction
+
+
+Class ==>
+
+ in-build class  --> all in-built  data type , data structure
+
+ 
+user define class -->
+
+SYNTAX:
+    class classname():
+       def method():
+        print()
+     obj = classname() 
+
+
+
+
+Within Class --> Function become Method
+Without Class --> Function
+
+
+
+Everytime user must need to call the method with object only 
+
+
+Inbuilt() vs userdef()
+function v/s method
+to call the method -- (classname.method_name --> self is not required )
+object name.method name  (self)  --> is required 
+
+1 class  & we can create multiple object
+& each object id's which has created will be different
+
+
+
+Method ==>
+in-built method -->
+  it is also called "Special Method" == __init__ ( called constructor)
+
+
+
+User define method
+
+
+Method without Argument 
+Method with Argument 
+
+self will consider as bydefault argument & also self will act as object
+self is pointer which referection to object in the memory location
+
+
+
+
+(7-07-26)
+
+
+ENCAPSULATION (Object Part)
+
+
+variable =>
+ instance variable
+ class variable == static variable
+
+methods =>
+ instance method
+ class method
+ static method
+
+
+variable which define inside __init__ is called "instance variable"
+variable which define outside of __init__ is called "class variable" OR "static variable"
+
+
+instance method ==> it will access all instance variable
+class method ==> it will access class variable
+static method ==> does not access any variable
+
+
+DECORATOR => we will be using in class method , static method , abstract method !
+
+
+
+
+OUTER CLASS V/S INNER CLASS :
+INNER CLASS => Class inside class is inner class
+
+Inner Class --
+Outer class & Inner class
+
+
+Inner class object always create outer of inner class & inside of outer class
+
+
+
+
+INHERITANCE ==>
+Inheritance concept always works with minimum 2 classes
+
+Single level
+Multi level
+Multiple
+Hybrid (multilevel + multiple)
+Constructor in inheritance
+Super() in inheritance
+mro in inheritance (Method Resolution Order)
+
+parent class = super class
+child class = sub class
+
+
+(8-07-26)
+
+
+CONSTRUCTOR in INHERITENCE
+
+__init__ in parent class & child class
+method resolution order -- it always  calculate left to right
+
+
+
+POLYMORPHISM
+
+duck typing
+operator overloading
+method overloading
+method overriding
+
+
+
+class name might be different where as method name must be same
+def function outside of the class
+
+instead of + we can use __add__
+instead of - we can use __sub__
+instead of using greater than we can use __gt__
+
+
+method overloading
+method overriding
+
+function argument
+ position
+ default
+ arg 
+ kward
+
+
+(9-07-26)
+
+
+
+ABSTRACTION  
+1. abstract class
+2. abstract method
+
+
+from abc import ABC , abstractmethod
+
+abc-- abstract base class
+ABC-- abstract class
+
+every class must require object
+abstract class require class
+
+
+ONCE THE CLASS IS ABSTRACT  YOU CAN'T CALLED OBJECT OF THE CLASS
+
+
+-----------------OOPS COMPLETED--------------------------------
+
+
+ITERATOR :
+iter_ & _next_
+
+in iterator user create variable ==iter()
+
+
+
+
+
+GENERATOR :
+ user no need to define variable iterator
+ generator create iterator
+
+
+
+
+
+
+
+
+
+(10-07-26)
+
+
+=========
+MEDIAPIPE
+=========
+
+#For mediapipe  it is compulsory to work on the python version 3.10
+
+[https://github.com/kodigitaccount/MEDIAPIPE-LIBRARY/tree/a ]
+
+
+
+mp.solution.holistic -- face & eye image detection
+mp.object_objection -- 4 object
+frames per second
+
+
+
+
+(13-07-26)
+
+===========
+TIME SERIES
+===========
+
+regression model has 2 variable i.e dependent & independent
+Whereas , in time series we has only one variable i.e TIME SERIES 
+
+
+Time series data --- data which collects on time
+ monthly salary
+ income returns
+ taxes
+ GDP
+
+
+Cross sectional-data --- data which doesn't collects on time 
+ business working  income
+
+
+Pooled data -- time series+ cross sectional 
+ Job & Business
+ Salary on time(time series)
+
+
+Patterns -- hourly , yearly , weekly , daily , monthly
+
+
+Components of Time Series --
+ Trend
+ Season
+ Cyclical
+ Random
+
+
+Time Series Model--
+AR (Auto regressive )
+MA (Moving Average)
+ARMA (AR+MA)
+ARIMA ( ARMA + Integration)
+SARIMA( Sessional + ARIMA)
+ARIMAX ( ARIMA + Xtrogeneous Factor)
+SARIMAX ( Seasonal + ARIMA + Xtrogeneous Factor)
+
+
+
+AR Model :
+--------
+ Predicts future based on past time ( t= t-1,t-2,...)
+ yt = b0+b1yt-1 +b2yt-2 + ......
+
+It has 2 component : ACF & PACF
+  ACF --> (Auto Corelation Function)
+  PACF --> (Partial Auto Corelation Function)
+
+
+
+
+In, Regression we have 2 variable -- X&Y (exp --salary)
+time series we have 1 variable time , 
+  Relative between Current time with prevous time is called "LAGS"
+
+
+
+CORELATIO V/S LAGS
+corelation works with 2 variable x&y ; whereas LAGS works with  1 variable i.e previous time 
+
+
+ACF ---> Direct & indirect effect of values in previous time lags with the current time period.
+PACF ---> Only direct effect of values in previous time lags.
+
+
+
+
+
+MA Model :
+----------
+
+Predict the future time based on past error 
+ AR Model -- past time (t= t-1, t-2,t-3)
+ MA Model -- past error ( e = E-1 , E-2, E-3)
+
+
+
+ARMA Model :  (AR + MA)
+------------
+ it IS THE COMBINATON OF AR & MA Model
+
+
+
+ARIMA Model :  (AR & MA + Integration)
+-----------
+
+Stationary :- Constant Mean & Constant Variance
+ if any dataset has constant mean & constant variance , then only apply "TIME SERIES MODEL"
+
+NON STATIONARY :- 
+ what if data is non stationary on that case what you (no constant mean , no constant variance)
+then apply this FORMULA :- Y(t)-Y(t-1)  to make it Stationary.
+
+How to check the graph is Stationary or not =>
+ 1. Visualization or Visual Inspection
+ 2. Global check v/s Local check
+
+ARIMA (ARMA + Stationary) Constant Mean & Constant Variance
+
+
+
+SARIMA Model : (Seasonal + ARIMA)
+--------------
+
+
+
+ARIMAX Model : (ARIMA + Xtrogeneous Variable)
+-------------
+If , there is any change in data Model , due to any external variable then it is called ARIMAX model.
+eg - Change of Flight prices due to ( Thunder storm, heavy rain) then we use ARIMAX Model
+
+
+
+SARIMAX Model : (SARIMA + Xtrogeneous Variable) Seasonal
+----------------
+If , there is any change in data Model i.e the data model will be of "Seasonal", due to any external variable then it is called SARIMAX model.
+
+
+Powerful Algo  == ARIMA
+
+
+
+===
+RNN (Recreant Neural Network)
+===
+
+ Data input Models :
+  ANN - Number | input layer , hidden layer , output layer
+  CNN - Image  | input matrix - filter , output matrix- maxpool -flatten -fully connect
+  RNN - Text   | input state - hidden state , output state
+
+
+
+RNN model is SEQ2SEQ Model
+RNN works on LSTM  (Long Short Term Memory)
+
+
+
+
+
+(14-07-26)
+
+
+Long Short Term Memory
+ Short Term Memory: data store for short term
+ Long Term Memory: Stores past Information
+
+
+LSTM [Long Short Term Memory] ==>
+It has mainly 3 gates 
+ Input gate  
+ Memory cell
+ Output gate
+ Forget gate
+
+
+
+GRU -- Gated Recurring Unit
+ update gate --> input + memory + output
+ reset gate
+
+
+
+
+(15-07-26)
+
+
+SPEECH RECOGNITION
+
+pytts3 - text to speech
+
+
+
+
+GenAI 
+
+
+(16-07-26)
+
+Introduction to GenAI
+
+How does GenAI works ?
+ GAN ( Generative Adverserial Neural Network)
+
+  Generator -- generate the image randomly from internet or given datatset till image is real
+  Discriminator -- classify image is real or fake which is generate by generator
+
+VAE (Variational Auto Encoder)
+ encoder -- input text by the user
+ decoder -- model generate text response text response from the model
+ RNN architecture
+
+
+Generative AI has 2 model :
+Text based model
+  User enter text GPT generate text
+ this text based model is Scalled LLM (LARGE LANGUAGE MODEL)
+
+
+ 
+
+Multimodel == State of the art model == Congnitive AI
+  text-image | image -text
+  text-audio | audio - text
+except text based rest of them are multimodel
+
+Multimodel we don't call LLM
+
+
+How to Build GenAI Model ==>
+1. Data
+2. Computation Resources
+3. Model Architecture
+4. Training Algo
+
+
+
+
+
+INTRODUCTION TO LLM's
+
+1. LLM TOKENIZER
+2. LLM EMBEDDING
+3. TRANSFER LEARNING
+4. ATTENTION IN LLM
+5. PRE-TRAINING
+
+
+
+LLM TOKENIZER ==>
+it is divided in 3 parts
+
+1. BPE (Byte Pair Encoding)
+2. WORD PIECE
+3. SENTENCE PIECE
+
+
+(17-07-26)
+
+
+How GenAI works -- gans & Vae | gans - Generator & Discriminator | Generator: generator the image & discriminator classify real or fake 
+
+LLM Embedding ==>
+ text to vector -- bow , tfidf , word2vec
+
+text will convert to vector  -- vector will store in Knowledge Base
+knowledge  base -- vector db
+
+
+1. LLM TOKENIZER
+
+2. LLM EMBEDDING
+
+In the context of LLM, embeddings are vectors stored in an index within a vector database.
+Embeddingd are a way to store data of all types in number arrays called vectors.
+
+    sql db -- number are store in sql data (mysql , postgres)
+    no sql db -- data image , text , document ( mongodb, hbase,casandra)
+    vector db -- it won't store text, number, image (pinecone, milvus ,qdrant, chroma db )
+                text --> index vector
+                image --> vector
+                video --> vector
+
+OpenAI has its own vector DB
+Google has its own embedding
+Huggingspace has its own hugging face embedding
+
+
+3. TRANSFER LEARNING
+ Transformers -- gpt, bert, imagenet, gans, encoder -- decoder
+
+
+
+4. ATTENTION IN LLM
+
+The attention mechanism is one of the most important concepts in LLM , it allows the model to focus on the most relevant words (tokens) when processing or generating text , instead of treating every word equally.
+
+Attention = Important Sentence
+
+To handle attention mechanism every model has 3 vectors:-
+Query(Q) - What info am I looking for?
+Key(K) - What information do I contain?
+Value(V) - What information should I contribute ?
+
+
+Single words == Multiple Meanings (single self attention mechanism)
+Multiple word == Multiple meaning ( Multi head attention)
+
+
+
+5. PRE-TRAINING
+To build LLM Model we must know about Framework
+Langchain
+Langgraph
+Langsmith
+
+
+Langchain Core Components ==>
+agents , models, messages , short term memory , event streaming , structure output
+
+
+PROJECTS FOR RESUEME ==>
+bank risk analysis
+image analysis for computer vision
+EDA with datat analysis
+Rag project
+Multi agent
+LLM bot for banking
+
+
+
+(18-07-26)
+
+How the LLM Model token count ==> Input token + Output token
+
+LangChain Architecture :-
+1.LangChain.chat_models
+2.Langchain_community
+3.Langchain_core
+
+Practical 1 : text generation model using gpt-5.4-mini (langchain+ openai)
+              doesn't require paid subscription
+
+Practical 2 : text gen model (Langchain+ gemini)
+              gemini-3-flash preview
+
+Practical 3 : Language Translation
+  from one language to another language
+
+
+
+
+(20-07-26)
+
+
+LLMOPS
+
+(LANGSMITH) -- for monitor the LLM model behaviour
+ track -- how many token you spend
+ which LLM you are using
+
+Mlflow is one of the tracking system (Monitor Accuracy)
+LLMops also do the same thing
+langsmith.com --> generate langsmith API Key 
+langsmith provide free tracing upto 5000 traces
+
+
+
+
+(21-07-26)
+
+Whenever user write any prompt in any LLM , do you know what parameters implemented ?
+Whenever we built any algorithm (has inbuild parameter)
+Same in COMPUTER VISION too
+
+
+ML Model Parameter V/S LLM Model Parameter
+
+
+LLM Model Parameter =>
+
+1. model
+
+2. temperature
+
+3. top-p :- is a parameter that controls how the model selects the next word during text generation.
+Range 0-1
+
+4. top-k :- works same as top-p but don't have any range, will find in next word generation rather it immediately given next tokens, possibility words.
+
+low top-k (1 to 10) generate next 10 possibility
+default top-k (40 or 50)
+N-high top-k (100+)
+
+5. max length : Parameter control over output
+  eg: if max-length=50 ==> generate up to 50 tokens
+
+6. stop sequence : Signal stating to stop generating text.
+
+7. frequency penalty :Stop generate reptation of words
+Range : 0-2
+
+8. presence penalty : Stop generate repetition of ideas
+Range: 0-2
+
+
+
+(22-07-26)
+
+
+SHORT TECHNIQUE --->
+
+0 short technique -- no knowledge still produce output
+1 short technique -- only 1 example produce output
+few short technique -- few example to produce output
+
+all prompts  consider 0 short learning
+
+
+
+COT (Chain of Thought)
+every LLM Model thinks 
+
+
+COT Technique : It is connected to Thinking
+ when user write any prompt
+ model start thinking spinoff 
+ high
+
+0 cot
+1 cot
+few cot
+
+
+Self Consistency in Prompt Engineer
+ if I write same prompt in chatgpt multiple time , then it will return same response
+ 
+
+ROLE Playing in PROMPT Engineer
+ reasoning + cot (chain of thought)
+   REACT in Prompt
+
+
+
+(23-07-26)
+
+
+CLAUDE has :-
+ CLAUDE chat
+ CLAUDE CODE
+ CLAUDE COWORK
+ CLAUDE DESIGN
+
+
+(24-07-26)
+
+
+AGENTIC AI
+
+1.Agent also has memory
+2.Agent has planning
+3.Agent can receive the task
+4.Agent can connect tools
+5.Agent  can also connect to LLm's
+
+Trigger Nodes --> Form will Open
+Action Nodes --> What should happen next
+Logic Nodes --> What logic need to apply to complete the  task
+
+
+Introduction about n8n
+
+
+
+(27-07-26)
+
+MULTIMODEL :-
+text to image , text to speech
+Multimodal also called SOTA 
+
+
+Stable Diffusion :- Create image from text
+
+All hugging face model we can use in GPU not in CPU
+
+Project created :- text to audio & text to immage
+
+
+(28-07-26)
+
+
+=========
+LANGGRAPH
+=========
+
+Langgraph --> graph based LLM
+
+
+langchain
+langsmith
+langgraph
+
+
+
+
+graph --> nodes & edges
+nodes (functions or logics)
+edges (transmission between the nodes )
+
+
+
+in langgraphs we have
+node 
+edge
+state graph
+end
+
+
+STATE GRAPH ==>
+It contains
+state 
+node
+edge 
+end
+
+
+
+(29-07-26)
+
+
+open ai
+stable diffusion
+HF with stable diffusion
+langchain + openai
+langgraph + groq
+
+
+When to use which LLM ==>
+images , video -- gemini ai
+text , rag , code -- claude code or chatgpt
+documentation -- claude , chatgpt
+
+
+text model -- ollama , chatgpt , claude , claude code
+image model -- stable diffuser
+gemini
+
+
+List of Gemini Models =>
+gemini
+gemini omini
+nano banana
+gemini audio
+veo --> video from text
+lyria
+imagegen --> generate img from text
+
+
+
+(30-07-26)
+
+Just one project
+
+
+
+
+(31-07-26)
+
+
+===
+RAG  (Retrieval Augmented Generation)
+===
+Retrieval --> getting relevant document of the query from database
+
+Types of RAG:-
+1. Navies RAG
+2.Advance RAG
+3.Simpale RAG
+4.Hybrid RAG
+5.Agentic RAG
+6.GraphRAG
+7.Multi-model RAG
+8.MUlti-Hop RAG
+9.Corrective RAG
+10. Self RAG
+11.Adaptive RAG
+12.Forbeddien & Secure  Enterprise RAG
+
+
+Chunking
+Types :
+1. Fixed-size chunking
+2. Fixed-size with Overlap
+3.Sentence-based Chunking
+4.Pragraph-based Chunking
+5.Section-based Chunking
+6.Semantic Chunking
+7.Token-based Chunking
+8.Character based Chunking
+9.Documen Structure Chunking
+10.Sliding Window Chunking
+11. Hierarchical Chunking
+12. Metadata-aware Chunking
+ 
